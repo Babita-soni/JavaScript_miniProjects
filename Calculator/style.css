@@ -1,0 +1,97 @@
+body{
+    background-color: white;
+}
+.heading{
+    font-size: 45px;
+    color: #5831cb;
+    font-family: "Red Hat Display", sans-serif
+}
+.input{
+    font-size: x-large;
+    color: #5831cb;
+    font-weight: bold;
+    border-style: none;
+}
+::placeholder{
+    color: #5831cb;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 6px 20px #e0e0e0;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.button1, .button2, .button3{
+    border-radius: 50%;
+    color: #5831cb;
+    border-style: none;
+    box-shadow: 1px 3px 3px #f3f3f3;
+    cursor: pointer;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight:bold;
+}
+.button1{
+    background-color: rgb(210, 219, 254);
+}
+.button2{
+    background-color: white;
+    font-size: 14px;
+}
+.button3{
+    background-color: rgb(255, 208, 132);
+}
+i{
+    color: #5831cb;
+    cursor: pointer;
+}
+.dark-mode{
+    background-color: #353535;
+
+    body{
+        background-color: #353535;
+    }
+    .heading{
+        color: #00e1ff;
+    }
+    .input{
+        font-size: x-large;
+        background-color: #353535;
+        color: white;
+        font-weight: bold;
+        border-style: none;
+    }
+    ::placeholder{
+        color: rgb(219, 219, 219);
+    }
+    .container{
+        background-color: #353535;
+        box-shadow: 2px 3px 10px #2f2f2f;
+        border-radius: 10px;
+        padding: 20px 20px;
+    }
+    .button1, .button2, .button3{
+        border-radius: 50%;
+        color: rgb(219, 219, 219);
+        border-style: none;
+        box-shadow: 0 0 1px #515151;
+        cursor: pointer;
+    }
+    .button1{
+        background-color: #353535;
+        color: #00e1ff;
+        font-weight:bold;
+    }
+    .button2{
+        background-color: #353535;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .button3{
+        background-color: #ffb24d;
+        color: #000000;
+    }
+    i{
+        color: rgb(37, 37, 37);
+        cursor: pointer;
+    }
+}
