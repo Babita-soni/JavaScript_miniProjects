@@ -21,3 +21,12 @@ https://babita-soni.github.io/JavaScript_miniProjects/Weather%20App
 
 ## 7. Rock Paper Scissor
 https://babita-soni.github.io/JavaScript_miniProjects/Rock%20Paper%20Scissor
+
+## 8. Background Changer
+https://babita-soni.github.io/JavaScript_miniProjects/Background%changer
+
+## 9. Github Card
+https://babita-soni.github.io/JavaScript_miniProjects/Github%card
+
+## 10. Keyboard check
+https://babita-soni.github.io/JavaScript_miniProjects/Keyboard%check
