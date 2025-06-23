@@ -24,20 +24,20 @@ async function checkWeather(city){
 
     if(data.weather[0].main == 'Clouds'){
         weatherIcon.src = "images/clouds.png";
-        document.body.style.background = 'url(https://images.unsplash.com/photo-1534358594138-6955f589fa24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'
+        document.querySelector(".card").style.background = 'url(https://images.unsplash.com/photo-1534358594138-6955f589fa24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'
     }
     else if(data.weather[0].main == 'Clear'){
         weatherIcon.src = "images/clear.png";
-        document.body.style.background = 'url(https://images.pexels.com/photos/96622/pexels-photo-96622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)'
+        document.querySelector(".card").style.background = 'url(https://images.pexels.com/photos/96622/pexels-photo-96622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)'
     }
     else if(data.weather[0].main == 'Rain'){
         weatherIcon.src = "images/rain.png";
-        document.body.style.background = 'url(https://scitechdaily.com/images/Rainy-Weather-1536x1024.jpg)'
+        document.querySelector(".card").style.background = 'url(https://scitechdaily.com/images/Rainy-Weather-1536x1024.jpg)'
 
     }
     else if(data.weather[0].main == 'Drizzle'){
         weatherIcon.src = "images/drizzle.png";
-        document.body.style.background = 'url(https://images.pexels.com/photos/10393304/pexels-photo-10393304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)'
+        document.querySelector(".card").style.background = 'url(https://images.pexels.com/photos/10393304/pexels-photo-10393304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)'
     }
     else{
         weatherIcon.src = "images/mist.png";

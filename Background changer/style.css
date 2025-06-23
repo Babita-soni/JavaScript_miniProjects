@@ -1,0 +1,23 @@
+button{
+    background-color: white;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: large;
+    width: 100px;
+    font-family: cursive;
+    font-weight: 800;
+    cursor: pointer;
+}
+body{
+    transition: background-color 3s ease;
+    background-color: #414141;
+    color: white;
+    margin: 40px;
+}
+h1{ 
+    font-family: cursive;
+}
+p{
+    font-family: monospace;
+}

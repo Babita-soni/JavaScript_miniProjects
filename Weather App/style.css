@@ -5,16 +5,17 @@
     box-sizing: border-box;
 }
 body{
-    /* background-color: #383a56; */
-    background: url(https://pics.freeartbackgrounds.com/midle/Blue_Cloudy_Sky_Background-1074.jpg);
+    background-color: #eaebff;
+    /* background: url(https://pics.freeartbackgrounds.com/midle/Blue_Cloudy_Sky_Background-1074.jpg); */
     background-repeat: no-repeat;
     background-size:cover
 }
 .card{
-    width: 90%;
-    max-width: 550px;
-    /* background: linear-gradient(135deg, #30577e, #6c98ca); */
-    /* backdrop-filter: blur(100px); */
+    width: 70%;
+    max-width: 450px;
+    box-shadow: 0 16px 18px rgb(59 59 59 / 83%);
+    /* background: linear-gradient(135deg, #30577e, #6c98ca);
+    backdrop-filter: blur(100px); */
     color: #fff;
     margin: 100px auto 40px;
     border-radius: 20px;
@@ -94,4 +95,71 @@ body{
     color: red;
     margin-top: 10px;
     display: none;
+}
+
+
+
+@media (max-width: 768px) {
+  .card {
+    padding: 30px 20px;
+  }
+
+  .search {
+    /* flex-direction: column; */
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .search input {
+    margin-right: 0;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .search button {
+    width: 25%;
+    border-radius: 30px;
+  }
+
+  .weather h1 {
+    font-size: 60px;
+  }
+
+  .weather h2 {
+    font-size: 35px;
+  }
+
+  .details {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .col {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .weather h1 {
+    font-size: 45px;
+  }
+
+  .weather h2 {
+    font-size: 28px;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 22px;
+  }
+
+  .col img {
+    width: 30px;
+  }
+
+  .card {
+    margin: 60px auto;
+    padding: 25px 15px;
+  }
 }

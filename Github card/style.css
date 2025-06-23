@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 1rem;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: #24292e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444c56;
+}
+
+.card {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: none;
+    /* //flex-direction: column; */
+    align-items: center;
+}
+
+.profilePic {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+
+.profilePic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* or use "contain" to fit whole image with background */
+    /* border-radius: 50%; */
+    /* border: 3px solid #24292e; */
+}
+
+.profileDetails{
+    text-align: left;
+    padding: 15px;
+}
+
+.profileDetails h1 {
+    font-size: small;
+    margin-bottom: 10px;
+    color: #24292e;
+    font-style: italic;
+    font-weight:normal;
+}
+.heading{
+    font-weight: bold;
+}
+
+.profileDetails span {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 0;
+    color: #555;
+}
+
+.profileDetails .link {
+    font-size: small;
+}
+
+
+
+@media (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profilePic {
+        margin-bottom: 20px;
+    }
+
+    .profileDetails {
+        text-align: center;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111111;
+}
+
+.project {
+  text-align: center;
+}
+
+.key {
+  font-size: 24px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.color table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.color th, .color td {
+  padding: 16px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+}
